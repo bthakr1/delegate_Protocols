@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labelOne: UILabel!
+    
+    @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func beamMeUpScotty(_ sender: Any) {
+        
+        
+    }
+    
 }
 
