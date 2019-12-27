@@ -24,6 +24,8 @@ class SecondViewController: UIViewController {
         
     }
     
+    // Adding a git repositry
+    
     /*
     // MARK: - Navigation
 
