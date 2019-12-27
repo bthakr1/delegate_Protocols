@@ -48,7 +48,7 @@
                     <connections>
                         <outlet property="labelOne" destination="Du3-PX-vyo" id="uuZ-4P-BEc"/>
                         <outlet property="textField" destination="lDK-6r-Rwb" id="CgT-Ui-He7"/>
-                        <segue destination="LEQ-yJ-lYj" kind="show" id="psT-tQ-sSW"/>
+                        <segue destination="LEQ-yJ-lYj" kind="show" identifier="sendDataForwards" id="psT-tQ-sSW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -89,7 +89,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="hoO-e1-SBF"/>
                     </view>
                     <navigationItem key="navigationItem" id="orB-lb-9o9"/>

@@ -9,7 +9,10 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    // data coming from first view controller
+    
+    var data = ""
+    
     @IBOutlet weak var label_2: UILabel!
     
     @IBOutlet weak var textField_2: UITextField!
@@ -18,6 +21,8 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        label_2.text = data
     }
     
     @IBAction func passItBack(_ sender: Any) {

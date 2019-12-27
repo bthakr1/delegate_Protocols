@@ -27,7 +27,17 @@ class ViewController: UIViewController {
     
     @IBAction func beamMeUpScotty(_ sender: Any) {
         
+        performSegue(withIdentifier: "sendDataForwards", sender: self)
         
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "sendDataForwards" {
+            
+            let secondVC = segue.destination as! SecondViewController
+            
+            secondVC.data = textField.text!
+        }
     }
     
 }
