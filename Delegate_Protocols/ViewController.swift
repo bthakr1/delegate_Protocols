@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     // Created new label
     @IBOutlet weak var labelOne: UILabel!
     
+    // created text field
+    
     @IBOutlet weak var textField: UITextField!
     
     override func viewDidLoad() {
