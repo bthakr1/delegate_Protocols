@@ -27,6 +27,17 @@ class SecondViewController: UIViewController {
     
     @IBAction func passItBack(_ sender: Any) {
         
+        performSegue(withIdentifier: "sendDataBack", sender: self)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "sendDataBack" {
+            let firstVC = segue.destination as! ViewController
+            
+            firstVC.dataPassBack = textField_2.text!
+            
+        }
     }
     
     // Adding a git repositry

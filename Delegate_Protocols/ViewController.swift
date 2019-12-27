@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var dataPassBack = ""
+    
+    
     // Created new label
     @IBOutlet weak var labelOne: UILabel!
     
@@ -20,6 +23,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        labelOne.text = dataPassBack
     }
 
     // beam me up Scotty

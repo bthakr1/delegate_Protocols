@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Delegate_Protocols" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Du3-PX-vyo">
@@ -45,6 +45,7 @@
                         <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="pJQ-QG-V9p"/>
                     <connections>
                         <outlet property="labelOne" destination="Du3-PX-vyo" id="uuZ-4P-BEc"/>
                         <outlet property="textField" destination="lDK-6r-Rwb" id="CgT-Ui-He7"/>
@@ -96,6 +97,7 @@
                     <connections>
                         <outlet property="label_2" destination="9WG-pY-hoo" id="TOM-99-kuK"/>
                         <outlet property="textField_2" destination="ahh-yp-wjd" id="cNN-MH-HJu"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="sendDataBack" id="DN8-wP-ajT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8bX-HN-mOb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
