@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // Created new label
     @IBOutlet weak var labelOne: UILabel!
     
     @IBOutlet weak var textField: UITextField!
